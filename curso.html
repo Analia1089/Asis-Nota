@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Cerrar sesion</a></li>
+                <li><a href="login.html">Cambiar cuenta</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main__index">
+        <div class="contenedor__nav__lateral">
+
+            <div class="nav__lateral__usuario">
+
+                <div class="usuario__img">
+                    <img src="img/pinamar_login_img.png" alt="">
+                </div>
+                <div class="usuario__info">
+                    <span>Mohammed</span>
+                </div>
+            </div>
+            <ul>
+                <li><a href="#">Escuela</a></li>
+                <li><a href="curso.html">Añadir curso</a></li>
+                <li><a href="html/tarea.html">Añadir tareas</a></li>
+                <li><a href="#">Soporte</a></li>
+            </ul>
+        </div>
+        <div class="contenedor__principal">
+            <div class="contenedor__crearCurso" id="contenedor__CrearCurso">
+                <div class="contenedor__Curso">
+                    <h1>Curso</h1>
+                    <input class="input__curso" id="curso" type="text" value="" name="input__curso" placeholder="Curso">
+                    <h1>Materia</h1>
+                    <input class="input__nomMat" id="nomMateria" type="text" value="" name="input__nomMat" placeholder="Nombre de materia">
+                    <h1>Nombre de docente</h1>
+                    <input class="input__nomDocente" id="nomDocente" type="text" value="" name="input__nomDocente" placeholder="Nombre de docente">
+                    <h1>Turno</h1>
+                    <input list="turno" id="turnoCurso" value="" name="turno">
+                    <datalist id="turno">
+                        <option value="Turno Mañana"></option>
+                        <option value="Turno Tarde"></option>
+                        <option value="Turno Vespertino"></option>
+                    </datalist>
+                    <button class="Btn-añadir" onclick="AgregarCurso()">Añadir</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="../js/main.js"></script>
+</body>
+</html>

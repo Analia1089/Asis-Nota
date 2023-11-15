@@ -1,0 +1,37 @@
+
+.contenedor__crearTarea{
+    width: 85%;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 0px 0px 13px 11px rgba(0,0,0,0.1); 
+}
+.contenedor__crearTarea h1{
+    font-size: 24px;
+    font-weight: 10;
+    width: 100%;
+}
+.tareas__input{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+.tareas__input input{
+    width: 100%;
+}
+.tareas__input textarea{
+    position: relative;
+    border: none;
+    outline: none;
+    width:100%;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background: #dadada;
+    resize: none;
+}
